@@ -7,6 +7,7 @@ defmodule RamonMath do
     b * b - 4 * a * c
   end
 
+  @doc "Pipeline to calculate baskara given the values"
   @spec baskara(number, number, number) :: {number, number}
   def baskara(a,b,c) do
     calc_delta(a,b,c)
